@@ -37,16 +37,15 @@ Lightweight desktop companion built with Rust & Tauri — bringing a customizabl
 - Press **`Alt + Space`** (fallback: `Ctrl + Alt + Space`) to search and launch apps, run system items, or calculate math expressions inline.
 - **Desktop Widgets** — Clock (with Depth Wallpaper cutout support), Vinyl player, Calendar, and Memo widgets.
 
-### Localization & Auto-Updater
+### Localization
 - Available in **English** and **Indonesian**, plus **Community Translations** (`locales/*.json` + live import via **Settings → General → Import JSON...**).
-- Built-in signed auto-updater via GitHub Releases (for standalone installer builds).
 
 ---
 
 ## Download & Installation
 
 1. Go to [**Releases**](https://github.com/loganmaxx/wizzly/releases/latest).
-2. Download **`Wizzly_0.1.2_x64-setup.exe`**.
+2. Download **`Wizzly_0.1.3_x64-setup.exe`**.
 3. Run the installer and follow the setup wizard (supports English & Indonesian).
 
 > **Note about Windows SmartScreen**
@@ -89,7 +88,6 @@ Wizzly is built to run **locally on your PC** with **no ads, no analytics, and n
 ### Optional External Network Requests
 - **Synced Lyrics (`lrclib.net`)** — When fetching lyrics for a playing track, Wizzly sends only the track title, artist, album, and duration to the public [LRCLIB](https://lrclib.net) API.
 - **Prayer Times City Lookup (`get.geojs.io` / `geocoding-api.open-meteo.com`)** — Used only when auto-detecting or searching a city for Prayer Times.
-- **App Update Check (`github.com/loganmaxx/wizzly/releases`)** — Checks `latest.json` for newer standalone installer releases (disabled in Microsoft Store builds).
 - **No personal data, clipboard contents, notifications, or usage logs are ever sent to any developer server.**
 
 ---
